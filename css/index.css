@@ -1,0 +1,11 @@
+body {
+  font-family: "Overpass", sans-serif;
+  width: 98vw;
+  height: 98vh;
+  background-color: hsl(216deg, 12%, 8%);
+}
+body .container {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 512px;
+  height: 512px;
+}/*# sourceMappingURL=index.css.map */

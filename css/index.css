@@ -1,11 +1,27 @@
 body {
   font-family: "Overpass", sans-serif;
-  width: 98vw;
-  height: 98vh;
   background-color: hsl(216deg, 12%, 8%);
+  min-height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15;
+  font-weight: 400;
 }
-body .container {
+
+.container {
   background-color: hsl(213deg, 19%, 18%);
-  width: 512px;
-  height: 512px;
+  width: 380px;
+  height: 380px;
+  border-radius: 6%;
+}
+.container .star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #31373f;
+  width: 48px;
+  height: 48px;
+  margin: 32px;
+  border-radius: 50%;
 }/*# sourceMappingURL=index.css.map */

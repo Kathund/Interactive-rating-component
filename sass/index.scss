@@ -5,14 +5,32 @@ $Medium_Grey: hsl(216, 12%, 54%);
 $Dark_Blue: hsl(213, 19%, 18%);
 $Very_Dark_Blue: hsl(216, 12%, 8%);
 
+$Star_BG: #31373f;
+
 body {
     font-family: 'Overpass', sans-serif;
-    width: 98vw;
-    height: 98vh;
     background-color: $Very_Dark_Blue;
-    .container {
-        background-color: $Dark_Blue;
-        width: 512px;
-        height: 512px;
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15;
+    font-weight: 400;
+}
+
+.container {
+    background-color: $Dark_Blue;
+    width: 380px;
+    height: 380px;
+    border-radius: 6%;
+    .star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: $Star_BG;
+        width: 48px;
+        height: 48px;
+        margin: 32px;
+        border-radius: 50%;
     }
 }
